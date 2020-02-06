@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10D0E2EFD040F3D5B093E840 /* libPods-TestRawJSONModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1893A654FC3F70497D227E26 /* libPods-TestRawJSONModel.a */; };
+		75F0B1C423EC1F2B00DB2E8B /* MakaMTLJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F0B1C323EC1F2B00DB2E8B /* MakaMTLJSONAdapter.m */; };
 		75FEC13023EBAD2A003D4AD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FEC12F23EBAD2A003D4AD6 /* AppDelegate.m */; };
 		75FEC13323EBAD2A003D4AD6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FEC13223EBAD2A003D4AD6 /* SceneDelegate.m */; };
 		75FEC13623EBAD2A003D4AD6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FEC13523EBAD2A003D4AD6 /* ViewController.m */; };
@@ -15,6 +17,7 @@
 		75FEC13E23EBAD2C003D4AD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75FEC13C23EBAD2C003D4AD6 /* LaunchScreen.storyboard */; };
 		75FEC14123EBAD2C003D4AD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FEC14023EBAD2C003D4AD6 /* main.m */; };
 		75FEC14B23EBAD2D003D4AD6 /* TestRawJSONModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FEC14A23EBAD2D003D4AD6 /* TestRawJSONModelTests.m */; };
+		C77E5A28065FC04CC8600EEC /* libPods-TestRawJSONModelTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EF9A7CB06766CCF9D71E0B /* libPods-TestRawJSONModelTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1893A654FC3F70497D227E26 /* libPods-TestRawJSONModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestRawJSONModel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3217BFB4F02802DA68762F2E /* Pods-TestRawJSONModelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRawJSONModelTests.release.xcconfig"; path = "Target Support Files/Pods-TestRawJSONModelTests/Pods-TestRawJSONModelTests.release.xcconfig"; sourceTree = "<group>"; };
+		48189BF64BC772BB42B0DB47 /* Pods-TestRawJSONModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRawJSONModel.release.xcconfig"; path = "Target Support Files/Pods-TestRawJSONModel/Pods-TestRawJSONModel.release.xcconfig"; sourceTree = "<group>"; };
+		75F0B1C223EC1F2B00DB2E8B /* MakaMTLJSONAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MakaMTLJSONAdapter.h; sourceTree = "<group>"; };
+		75F0B1C323EC1F2B00DB2E8B /* MakaMTLJSONAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakaMTLJSONAdapter.m; sourceTree = "<group>"; };
 		75FEC12B23EBAD2A003D4AD6 /* TestRawJSONModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestRawJSONModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75FEC12E23EBAD2A003D4AD6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		75FEC12F23EBAD2A003D4AD6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -43,6 +51,9 @@
 		75FEC14623EBAD2D003D4AD6 /* TestRawJSONModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestRawJSONModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75FEC14A23EBAD2D003D4AD6 /* TestRawJSONModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRawJSONModelTests.m; sourceTree = "<group>"; };
 		75FEC14C23EBAD2D003D4AD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2A4FD6DB1F5821F50521F9B /* Pods-TestRawJSONModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRawJSONModel.debug.xcconfig"; path = "Target Support Files/Pods-TestRawJSONModel/Pods-TestRawJSONModel.debug.xcconfig"; sourceTree = "<group>"; };
+		BB72D8641DC124498D4724FC /* Pods-TestRawJSONModelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRawJSONModelTests.debug.xcconfig"; path = "Target Support Files/Pods-TestRawJSONModelTests/Pods-TestRawJSONModelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9EF9A7CB06766CCF9D71E0B /* libPods-TestRawJSONModelTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestRawJSONModelTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10D0E2EFD040F3D5B093E840 /* libPods-TestRawJSONModel.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,18 +69,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C77E5A28065FC04CC8600EEC /* libPods-TestRawJSONModelTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		324CF3CE6DAC790110535C55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2A4FD6DB1F5821F50521F9B /* Pods-TestRawJSONModel.debug.xcconfig */,
+				48189BF64BC772BB42B0DB47 /* Pods-TestRawJSONModel.release.xcconfig */,
+				BB72D8641DC124498D4724FC /* Pods-TestRawJSONModelTests.debug.xcconfig */,
+				3217BFB4F02802DA68762F2E /* Pods-TestRawJSONModelTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		75FEC12223EBAD2A003D4AD6 = {
 			isa = PBXGroup;
 			children = (
 				75FEC12D23EBAD2A003D4AD6 /* TestRawJSONModel */,
 				75FEC14923EBAD2D003D4AD6 /* TestRawJSONModelTests */,
 				75FEC12C23EBAD2A003D4AD6 /* Products */,
+				324CF3CE6DAC790110535C55 /* Pods */,
+				E16D1A1190CAD88466F54FCF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +116,8 @@
 				75FEC13223EBAD2A003D4AD6 /* SceneDelegate.m */,
 				75FEC13423EBAD2A003D4AD6 /* ViewController.h */,
 				75FEC13523EBAD2A003D4AD6 /* ViewController.m */,
+				75F0B1C223EC1F2B00DB2E8B /* MakaMTLJSONAdapter.h */,
+				75F0B1C323EC1F2B00DB2E8B /* MakaMTLJSONAdapter.m */,
 				75FEC13723EBAD2A003D4AD6 /* Main.storyboard */,
 				75FEC13A23EBAD2C003D4AD6 /* Assets.xcassets */,
 				75FEC13C23EBAD2C003D4AD6 /* LaunchScreen.storyboard */,
@@ -108,6 +136,15 @@
 			path = TestRawJSONModelTests;
 			sourceTree = "<group>";
 		};
+		E16D1A1190CAD88466F54FCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1893A654FC3F70497D227E26 /* libPods-TestRawJSONModel.a */,
+				D9EF9A7CB06766CCF9D71E0B /* libPods-TestRawJSONModelTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -115,6 +152,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75FEC14F23EBAD2D003D4AD6 /* Build configuration list for PBXNativeTarget "TestRawJSONModel" */;
 			buildPhases = (
+				C00972AE9DF3281DAB8BF22F /* [CP] Check Pods Manifest.lock */,
 				75FEC12723EBAD2A003D4AD6 /* Sources */,
 				75FEC12823EBAD2A003D4AD6 /* Frameworks */,
 				75FEC12923EBAD2A003D4AD6 /* Resources */,
@@ -132,6 +170,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75FEC15223EBAD2D003D4AD6 /* Build configuration list for PBXNativeTarget "TestRawJSONModelTests" */;
 			buildPhases = (
+				95CE67A6016650F70B852101 /* [CP] Check Pods Manifest.lock */,
 				75FEC14223EBAD2D003D4AD6 /* Sources */,
 				75FEC14323EBAD2D003D4AD6 /* Frameworks */,
 				75FEC14423EBAD2D003D4AD6 /* Resources */,
@@ -203,6 +242,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		95CE67A6016650F70B852101 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestRawJSONModelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C00972AE9DF3281DAB8BF22F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestRawJSONModel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		75FEC12723EBAD2A003D4AD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -212,6 +298,7 @@
 				75FEC13023EBAD2A003D4AD6 /* AppDelegate.m in Sources */,
 				75FEC14123EBAD2C003D4AD6 /* main.m in Sources */,
 				75FEC13323EBAD2A003D4AD6 /* SceneDelegate.m in Sources */,
+				75F0B1C423EC1F2B00DB2E8B /* MakaMTLJSONAdapter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +452,7 @@
 		};
 		75FEC15023EBAD2D003D4AD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2A4FD6DB1F5821F50521F9B /* Pods-TestRawJSONModel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -382,6 +470,7 @@
 		};
 		75FEC15123EBAD2D003D4AD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48189BF64BC772BB42B0DB47 /* Pods-TestRawJSONModel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -399,6 +488,7 @@
 		};
 		75FEC15323EBAD2D003D4AD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB72D8641DC124498D4724FC /* Pods-TestRawJSONModelTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -419,6 +509,7 @@
 		};
 		75FEC15423EBAD2D003D4AD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3217BFB4F02802DA68762F2E /* Pods-TestRawJSONModelTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
