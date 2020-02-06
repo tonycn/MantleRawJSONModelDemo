@@ -13,8 +13,7 @@
 - (id)modelFromJSONDictionary:(NSDictionary *)JSONDictionary error:(NSError **)error
 {
     id model = [super modelFromJSONDictionary:JSONDictionary error:error];
-    if ([model conformsToProtocol:@protocol(MakaMTLModelRawJSONProp)]
-        && [model supportRawJSONProp]) {
+    if ([model conformsToProtocol:@protocol(MakaMTLModelRawJSONProp)]) {
         [model setMakaMTLModelRawJSONProp:JSONDictionary];
     }
     return model;
@@ -23,8 +22,7 @@
 - (NSDictionary *)JSONDictionaryFromModel:(id<MTLJSONSerializing>)model error:(NSError **)error
 {
     NSDictionary *dict = [super JSONDictionaryFromModel:model error:error];
-    if ([(id)model conformsToProtocol:@protocol(MakaMTLModelRawJSONProp)]
-        && [(id)model supportRawJSONProp]) {
+    if ([(id)model conformsToProtocol:@protocol(MakaMTLModelRawJSONProp)]) {
         NSDictionary *rawDict = [(id)model makaMTLModelRawJSONProp];
         if (rawDict) {
             NSMutableDictionary *dictWithRawJSON = [rawDict mutableCopy];

@@ -12,8 +12,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol MakaMTLModelRawJSONProp <NSObject>
 
-- (BOOL)supportRawJSONProp;
-
 - (void)setMakaMTLModelRawJSONProp:(NSDictionary *)rawJSON;
 
 - (NSDictionary *)makaMTLModelRawJSONProp;
